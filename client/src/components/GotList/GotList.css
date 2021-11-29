@@ -1,0 +1,40 @@
+.got__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+  }
+  .got__item {
+    margin: 14px;
+    text-align: center;
+    height: 320px;
+    width: 180px;
+    padding: 4px;
+    list-style: none;
+    
+  }
+  .got__name {
+    background: brown;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+  }
+  .got__caption {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .got__img {
+    margin: 10px;
+    height: 180px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+    
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
